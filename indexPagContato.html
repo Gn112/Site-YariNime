@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+ <!-- Eu fiz o site com base no meu projeto no Figma, utilizei somente os conteúdos do classsroom,
+W3 schools, ajuda dos monitores e pesquisando na internet. Fiz somente no bloco de notas e no notepad++ (por causa do ctrl+z, modo escuro e corro menos risco de perder meu progresso).
+Diagramei o site utilizando pricipalmente as DIVS, tabelas e seletores de CSS.
+
+Está cheio de gambiarra e coisa inútil (obviamente não tenho conhecimento sufuciente), com certeza da pra mudar bastante coisa mas está fiel ao projeto do figma.
+
+----Espero que goste <3 <3 <3---- 
+----Os banners do DANGANRONPA redirecionam para a segunda página---- 
+made by: Gabriel Siriani - 2C2 - Colégio Cotemig
+-->
+<head>
+
+ <!-- CONFIGURAÇÃO HEAD (FONTES, CHARSET, TÍTULO, FAVICON, ETC.) -->
+
+ <meta charset="utf-8">
+ <title>YariNime - Entre em contato!!!</title> <!-- Noma da aba do site -->
+ <link rel="stylesheet" href="estiloPagContato.css"/> <!-- Linkei a planilha de estilos (CSS) -->
+ <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Linkei a fonte do site -->
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+ <link rel="icon" type="image/x-icon" href="imagens/FaviconYariNime.ico"> <!-- FAVICON-->
+
+</head>
+
+<body>
+
+ <!-- CABEÇALHO (LOGOS, BARRA DE PESQUISA, BOTÕES) -->
+ <header> <!-- Literalmente uma DIV com nome Cabeçalho -->
+
+<a id="LogoYariNime" href="index.html"> <!-- Logo do site com um link anexado-->
+ <img src="imagens\logoAlt.png" alt="Logo YariNime">
+</a>
+  
+ <div id="searprof"> <!-- div com a barra de pesquisa e perfil -->
+ <p id="pesquisaheader">Pesquisar...<img id="lupa" src="imagens\lupa.png"></p>
+ 
+ <div id="divlogoperfil"> <!-- Div com a Logo do perfil -->
+ <img src="imagens\logoperfilAlt.png">
+ </div>
+ </div>
+<table id="tb1"> <!-- Tabela com os botões do cabeçalho -->
+<tr>
+ <td class="td1"> <a href="index.html"> HOME </a></td>
+ <td class="td1">MANGÁS</td>
+ <td class="td1">LISTA</td>
+ <td class="td1"> <a href="indexPagContato.html">CONTATO</a></td>  
+ <td class="td1">DISCORD</td>
+</TR>
+</table>
+
+ </header>
+
+<div id="main">  <!-- Conteúdo principal da página -->
+<div id="titulo"> <!-- Título da página -->
+ <h2>ENTRE EM CONTATO CONOSCO!!!</h2>
+</div>
+
+<div class="divemail"> <!-- Div das caixas -->
+<p class="subemail">EMAIL*:</p> <!-- Caixa de email -->
+<div class="email">
+</div>
+</div>
+
+<div class="divemail">
+<p class="subemail">ASSUNTO*:</p> <!-- Caixa de assunto -->
+<div class="email">
+</div>
+</div>
+
+<div class="divemail">
+<p class="subemail">MENSAGEM*:</p> <!-- Caixa de mensagem -->
+<div id="box">
+</div>
+</div>
+</div>
+
+<div id="alt"> <!-- Parte de baixo do site -->
+<div id="titulo2"> <!-- Sub-Título -->
+ <h1>Ou entre em contato pelas nossas redes sociais:</h1>
+</div>
+
+ <div id="redesAlt"> <!-- Botões das redes sociais -->
+ 
+ <a href="https://www.instagram.com/your.siriii/" target="_blank"><img class="logos" src="imagens\Rodapé\Instagram.png">
+ </a>
+ 
+ <img class="logos" src="imagens\Rodapé\Twitter.png">
+ <img class="logos" src="imagens\Rodapé\Discord.png">
+ </div>
+</div>
+
+<!-- RODAPÉ -->
+
+<footer> <!-- Literalmente uma DIV com nome Rodapé -->
+
+ <!-- LOGO, COPYRIGHT E BOTÕES -->
+
+ <div>
+ <img id="LogoRodape" src="imagens\YariNimeSF.png" alt="Logo YariNime">
+ <p id="copi">© Copyright YariNime - 2022</p>
+ </div>
+ 
+ <div id="contato">
+ <table id="tbrod">
+<tr>
+ <td class="rod">HOME</td>
+ <td class="rod"> <a href="indexPagContato.html">CONTATO</a></td>
+ <td class="rod">POLÍTICA DE PRIVACIDADE</td>
+ <td id="seupiorerro"> <a href="https://abre.ai/seupiorerro" target="_blank">NÃO CLIQUE AQUI</a></td> <!-- EU NÃO COMETERIA ESSE ERRO -->
+</TR>
+</table>
+
+ </div>
+ 
+ <!-- SEÇÃO REDES SOCIAIS -->
+ <div id="redes">
+ 
+ <a href="https://www.instagram.com/your.siriii/" target="_blank"><img class="itd" src="imagens\Rodapé\Instagram.png">
+ </a>
+ 
+ <img class="itd" src="imagens\Rodapé\Twitter.png">
+ <img class="itd" src="imagens\Rodapé\Discord.png">
+ </div>
+ 
+</footer>
+
+</body>
+
+</html>

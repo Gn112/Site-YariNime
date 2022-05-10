@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html>
+
+ <!-- Eu fiz o site com base no meu projeto no Figma, utilizei somente os conteúdos do classsroom,
+W3 schools, ajuda dos monitores e pesquisando na internet. Fiz somente no bloco de notas e no notepad++ (por causa do ctrl+z, modo escuro e corro menos risco de perder meu progresso).
+Diagramei o site utilizando pricipalmente as DIVS, tabelas e seletores de CSS.
+
+Está cheio de gambiarra e coisa inútil (obviamente não tenho conhecimento sufuciente), com certeza da pra mudar bastante coisa mas está fiel ao projeto do figma.
+
+----Espero que goste <3 <3 <3---- 
+----Os banners do DANGANRONPA redirecionam para a segunda página---- 
+Alguns elementos podem ficar diferentes em alguns monitores
+-->
+
+<!-- made by: Gabriel Siriani - 2C2 - Colégio Cotemig -->
+
+
+<head>
+
+ <!-- CONFIGURAÇÃO HEAD (FONTES, CHARSET, TÍTULO, FAVICON, ETC.) -->
+
+ <meta charset="utf-8">
+ <title> YariNime - Assista os Melhores Animes na Melhor Qualidade!!!</title> <!-- Noma da aba do site -->
+ <link rel="stylesheet" href="estilo.css"/> <!-- Linkei a planilha de estilos (CSS) -->
+ <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Linkei a fonte do site -->
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+ <link rel="icon" type="image/x-icon" href="imagens/FaviconYariNime.ico"> <!-- FAVICON-->
+</head>
+
+<body>
+
+ <!-- CABEÇALHO (LOGOS, BARRA DE PESQUISA, BOTÕES) -->
+  <header> <!-- Literalmente uma DIV com nome Cabeçalho -->
+<a id="LogoYariNime" href="index.html"> <!-- Logo do site com um link anexado-->
+ <img src="imagens\logoAlt.png" alt="Logo YariNime">
+</a>
+  
+  
+ <div id="searprof"> <!-- div com a barra de pesquisa e perfil -->
+ <p id="pesquisaheader">Pesquisar...<img id="lupa" src="imagens\lupa.png"></p>
+ 
+ <div id="divlogoperfil"> <!-- Div com a Logo do perfil -->
+ <img src="imagens\logoperfilAlt.png">
+ </div>
+ </div>
+
+<table id="tb1"> <!-- Tabela com os botões do cabeçalho -->
+<tr>
+ <td class="td1"> <a href="index.html"> HOME </a></td>
+ <td class="td1">MANGÁS</td>
+ <td class="td1">LISTA</td>
+ <td class="td1"> <a href="indexPagContato.html">CONTATO</a></td>  
+ <td class="td1">DISCORD</td>
+</TR>
+</table>
+
+  </header>
+<hr> <!-- Essa linha só serve de referência para demarcar o fim do cabeçalho. Tirando ela pode atrapalhar a diagramação do site. Tirei a opacidade dela tbm -->
+
+
+<!-- Banners de Cima -->
+
+<div id="Banners">
+<img id="img1" src="imagens\Banner Topo\Group 50.png"> <!--Optei por junta-los em uma unica imagem -->
+</div>
+
+<!-- Sub-Barra (botão categorias, lançamentos, etc.) -->
+<div id="Subbarra">
+
+<table id="tb2">
+<tr>
+ <td class="td2">CATEGORIAS</td>
+ <td class="td2">|</td>
+ <td class="td2">LANÇAMENTOS</td>
+ <td class="td2">|</td>
+ <td class="td2">MAIS CURTIDOS</td>
+ <td class="td2">|</td>
+ <td class="td2">BEST GIRLS</td>
+ <td class="td2">|</td>
+ <td class="td2">BEST BOYS</td>
+</tr>
+</table>
+
+</div>
+
+<!-- SEÇÃO DE CALENDÁRIO -->
+
+ <div id="Calendario">
+<p id="callancamentos">CALENDÁRIO DE LANÇAMENTOS</p>
+<img id="arrow" src="imagens\Arrow_Down_SM.svg">
+<img id="calendardays" src="imagens\Calendar_Days.svg">
+ </div>
+
+
+<!-- SEÇÃO LANÇAMENTOS começo -->
+ 
+<div id="linhaL1">
+
+<!-- Div com icone e subtítulo -->
+ <div id="lan">
+ 
+ <img id="icolan" src="imagens\Banners Lançamentos\icolan.png">
+ <p id="p1">LANÇAMENTOS</p>
+ </div>
+ 
+ <!-- Imagens dos banners -->
+ 
+ <img id="sono1" src="imagens\Banners Lançamentos\sono1.png">
+ <img id="snk1" src="imagens\Banners Lançamentos\snk1.png">
+ <img id="onepiece1" src="imagens\Banners Lançamentos\onepiece1.png">
+ <img id="yari1" src="imagens\Banners Lançamentos\yari1.png">
+
+</div>
+
+<div id="linhaL2">
+
+ <img id="given1" src="imagens\Banners Lançamentos\given1.png">
+ <img id="char1" src="imagens\Banners Lançamentos\char1.png">
+ <a href="indexPag2.html">
+ <img id="dangan1" src="imagens\Banners Lançamentos\dangan1.png">
+ </a>
+ <img id="idol1" src="imagens\Banners Lançamentos\idol1.png">
+ 
+</div>
+
+<!-- SEÇÃO LANÇAMENTOS fim -->
+
+<!-- SEÇÃO MAIS CURTIDOS começo -->
+<div>
+
+<!-- Div com icone e subtítulo -->
+<div id="linhaM1">
+
+ <div id="lan2">
+ 
+ <img id="icolan2" src="imagens\Banners Mais Curtidos\icomas.png">
+ <p id="p2">MAIS CURTIDOS</p>
+ </div>
+ 
+ <!-- Imagens dos banners -->
+ 
+ <img id="snk2" src="imagens\Banners Mais Curtidos\snk2.png">
+ <img id="naruto2" src="imagens\Banners Mais Curtidos\naruto2.png">
+ <img id="demon2" src="imagens\Banners Mais Curtidos\demon2.png">
+ <img id="hunter2" src="imagens\Banners Mais Curtidos\hunter2.png">
+</div>
+
+<div id="linhaM2">
+ <img id="juju2" src="imagens\Banners Mais Curtidos\juju2.png">
+ <img id="neon2" src="imagens\Banners Mais Curtidos\neon2.png">
+ <img id="yari2" src="imagens\Banners Mais Curtidos\yari2.png">
+  <a href="indexPag2.html">
+ <img id="dangan2" src="imagens\Banners Mais Curtidos\dangan2.png">
+ </a>
+ </a>
+</div>
+</div>
+
+<!-- SEÇÃO MAIS CURTIDOS fim -->
+
+<!-- RODAPÉ -->
+
+<footer> <!-- Literalmente uma DIV com nome Rodapé -->
+
+ <!-- LOGO, COPYRIGHT E BOTÕES -->
+
+ <div>
+ <img id="LogoRodape" src="imagens\YariNimeSF.png" alt="Logo YariNime">
+ <p id="copi">© Copyright YariNime - 2022</p>
+ </div>
+ 
+ <div id="contato">
+ <table id="tbrod">
+<tr>
+ <td class="rod">HOME</td>
+ <td class="rod"> <a href="indexPagContato.html">CONTATO</a></td>
+ <td class="rod">POLÍTICA DE PRIVACIDADE</td>
+ <td id="seupiorerro"> <a href="https://abre.ai/seupiorerro" target="_blank">NÃO CLIQUE AQUI</a></td> <!-- EU NÃO COMETERIA ESSE ERRO -->
+</TR>
+</table>
+
+ </div>
+ 
+ <!-- SEÇÃO REDES SOCIAIS -->
+ <div id="redes">
+ 
+ <a href="https://www.instagram.com/your.siriii/" target="_blank"><img class="itd" src="imagens\Rodapé\Instagram.png">
+ </a>
+ 
+ <img class="itd" src="imagens\Rodapé\Twitter.png">
+ <img class="itd" src="imagens\Rodapé\Discord.png">
+ </div>
+ 
+</footer>
+
+</body>
+
+</html>
+<!-- made by: Gabriel Siriani - 2C2 - Colégio Cotemig -->

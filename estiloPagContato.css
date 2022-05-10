@@ -1,0 +1,284 @@
+/* Eu fiz o site com base no meu projeto no Figma, utilizei somente os conteúdos do classsroom,
+W3 schools, ajuda dos monitores e pesquisando na internet. Fiz somente no bloco de notas e no notepad++ (por causa do ctrl+z, modo escuro e corro menos risco de perder meu progresso).
+Diagramei o site utilizando pricipalmente as DIVS, tabelas e seletores de CSS.
+
+Está cheio de gambiarra e coisa inútil (obviamente não tenho conhecimento sufuciente), com certeza da pra mudar bastante coisa mas está fiel ao projeto do figma.
+----Espero que goste <3 <3 <3---- 
+made by: Gabriel Siriani - 2C2 - Colégio Cotemig
+*/
+
+
+/* Selecionei a cor de fundo do site */
+
+body { 
+background-color: #08050F; /* #08050F */ 
+margin: 0; /* Não sei porque coloquei, mas quando tiro o site fica quebradinho :< */
+
+
+}
+
+/* Tirei os estilos dos hyperlinks */
+
+a {
+text-decoration: none;
+color: inherit; /* Não faço ideia do que é (mas tirou a cor azul dos links) */
+}
+
+/* Configurando a header */
+header { 
+position: relative;
+width: 100%;
+height: 122px;
+background: linear-gradient(360deg, rgba(18, 0, 24, 0), #51006F ); /* copiei do figma (usei como imagem no rodapé) */
+display: flex;
+text-align: center;
+}
+
+/* Logos */
+#LogoYariNime {
+position: relative;
+top: 15px;
+height: 110px;
+margin-right: auto;
+margin-left: 7%;
+}
+
+#LogoPerfil {
+position: absolute;
+width: 50px;
+height: 50px;
+top: 40px;
+margin-left: 94%;
+
+}
+
+/* Barra de pesquisa */
+
+#BarraDePesquisa {
+position: absolute;
+height: 50px;
+top: 40px;
+margin-left: 80.5%;
+margin-right: 0%;
+}
+#searprof {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 5%;
+}
+
+#pesquisaheader {
+display: flex;
+position: relative;
+border-style: solid;
+border-radius: 18px;
+border-width: 1px;
+border-color: #21173B;
+padding: 15px;
+padding-right: 60%;
+background-color: #08050F;
+color: #9642AB;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+height: 20px;
+margin-right: 5%;
+}
+
+#lupa {
+position: relative;
+height: 21px;
+margin-right: 0%;
+margin-left: 80%;
+}
+
+#divlogoperfil {
+position: relative;
+border-style: solid;
+border-radius: 18px;
+border-width: 1px;
+border-color: #21173B;
+padding: 15px;
+background-color: #08050F;
+color: #9642AB;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+height: 20px;
+}
+
+
+/* Botões Cabeçalho */
+
+#tb1 {
+color: #9642AB;
+position: absolute;
+top: 41px;
+text-shadow: 4px 5px 1px rgba(0, 0, 0, 0.25);
+margin: auto;
+margin-left: 20%;
+}
+
+
+td {
+padding: 11px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;;
+}
+
+#titulo { /* Div do titulo */
+position: relative;
+text-align: center;
+margin-left: auto;
+margin-left: auto;
+margin-top: 80px;
+}
+
+h2 { /* Título do site */
+color:white;
+font-family: 'Montserrat';
+}
+
+.email { /* Classe das 3 caixas */
+border-style: solid;
+border-width: 1px;
+border-color: white;
+padding: 15px;
+padding-left: 10px;
+padding-right: 300px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+width: 40%;
+color: #9642AB;
+}
+
+.subemail { /* Título da cada classe */
+color:white;
+font-family: 'Montserrat';
+margin-bottom: 10px;
+width: 58.7%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#box { /* Classe própia da caixa maior da Mensagem */
+border-style: solid;
+border-width: 1px;
+border-color: white;
+padding: 15px;
+padding-left: 10px;
+padding-right: 300px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+width: 40%;
+height: 150px;
+color: #9642AB;
+}
+
+h1 { /* Conteúdo Sub-Título */
+color:white;
+font-family: 'Montserrat';
+}
+
+#titulo2 { /* Div sub-título */
+position: relative;
+text-align: center;
+margin-left: auto;
+margin-left: auto;
+margin-top: 80px;
+}
+
+#redesAlt { /* Div das redes sociais */
+position: relative;
+text-align: center;
+margin-left: auto;
+margin-left: auto;
+height: 50px;
+margin-bottom: 120px;
+}
+
+.logos { /* Classe das logos das redes sociais */
+padding: 5px;
+height: 50px;
+}
+
+/* RODAPÉ */
+
+footer { /* BACKGROUND RODAPÉ */
+position: relative;
+background: url('fundo.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 288px;
+margin-top: 50px;
+margin: auto;
+text-align: center;
+}
+
+#LogoRodape { 
+position: relative;
+width: 124px;
+height: 106px;
+opacity: 0.9;
+margin-top: 20px;
+margin-bottom: 15px;
+}
+
+#copi { /* SEÇÃO COPYRIGHT*/
+position: relative;
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: auto;
+font-size: 17px;
+margin: auto;
+margin-left: 8px;
+text-shadow: 4px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+#contato { 
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+#tbrod { /* TABELA CONTATO, HOME, POLÍTICA*/
+position: relative;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+}
+
+.rod { /* CLASSE CONTATO, HOME, POLÍTICA*/
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: auto;
+font-size: 17px;
+text-shadow: 4px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.itd { /* CLASSE REDES SOCIAIS*/
+position: relative;
+padding: 5px;
+}
+
+/* EU NÃO COMETERIA ESSE ERRO*/
+
+#seupiorerro {
+color: #DB1AD5;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: auto;
+font-size: 19px;
+text-shadow: 2px 2px 5px #5C0B59;
+}
+/* made by: Gabriel Siriani - 2C2 - Colégio Cotemig */
